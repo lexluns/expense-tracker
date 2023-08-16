@@ -56,11 +56,6 @@ class _LandingScreenState extends State<LandingScreen> {
         onTap: _selectPage,
       ),
       body: activePage,
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        backgroundColor: Colors.blue,
-        child: const Icon(Icons.add),
-      ),
     );
   }
 }
